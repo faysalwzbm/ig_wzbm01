@@ -1,0 +1,22 @@
+@import "/variables";
+
+.textFile {
+    display: flex;
+    align-content: center;
+    background-color: $background-white;
+    border: 1px solid $border-color-grey;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 2em;
+    color: $font-color-primary;
+    margin: 0 0 0.5em 0;
+    padding: 2.5em 1em;
+    // height: 7.4em;
+    // overflow: hidden;
+}
+
+@media only screen and (max-width: 640px) {
+    .textFile {
+        margin: 0 0 0.5em 0;
+    }
+}
